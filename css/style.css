@@ -27,7 +27,7 @@ body {
   height: 825px;
   /* width: 1440px; */
   /* background-color: rgb(204, 187, 36); */
-  background-image: url(/img/header-bg.png);
+  background-image: url(../img/header-bg.png);
 }
 
 .navbar {
