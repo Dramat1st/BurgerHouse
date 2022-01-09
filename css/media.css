@@ -1,0 +1,85 @@
+@media (max-width: 1024px) {
+  .offer-week-title {
+    font-size: 75px;
+    width: 400px;
+  }
+  .offer-subtitle2 {
+    font-size: 150px;
+    padding-left: 200px;
+  }
+  .offer-subtitle1 {
+    font-size: 17px;
+    width: 360px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+  }
+  .combo2 {
+    width: 600px;
+    height: 600px;
+    margin-left: -20px;
+  }
+  .Price1 {
+    right: 390px;
+    top: 465px;
+  }
+  .section-news {
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .section-news-twoBanners {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .events-text-subtitle {
+    font-size: 30px;
+  }
+  .events-text p {
+    width: 400px;
+    height: 250px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .events-text {
+    margin: 0;
+    width: 420px;
+  }
+  .event-img {
+    width: 500px;
+    height: 400px;
+    margin-left: 0;
+  }
+  .events-img {
+    margin: 0;
+  }
+  .booking-imgDish {
+    top: 390px;
+  }
+  .imgDish {
+    width: 180px;
+    height: 230px;
+    /* top: 307px; */
+  }
+  .booking-imgBottle {
+    left: -30px;
+    top: 200px;
+  }
+  .booking-imgBurger {
+    bottom: 470px;
+  }
+  .imgBurger {
+    height: 330px;
+  }
+  .imgBottle {
+    height: 300px;
+  }
+  .footerLogo {
+    margin-top: 30px;
+  }
+  .footer-restaurantInfo p {
+    font-size: 12px;
+  }
+  .footer-socialNetworks {
+    margin-top: 80px;
+  }
+}

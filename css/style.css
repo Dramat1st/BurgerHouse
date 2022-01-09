@@ -1,0 +1,565 @@
+@font-face {
+  font-family: "AlfaSlabOne";
+  src: url("../fonts/AlfaSlabOne-Regular-OTF.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeueRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+.header {
+  /* display: flex; */
+  /* margin: 0; */
+  height: 825px;
+  /* width: 1440px; */
+  /* background-color: rgb(204, 187, 36); */
+  background-image: url(/img/header-bg.png);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number {
+  width: 307px;
+  height: 71px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.6667px;
+  line-height: 71px;
+  /* identical to box height, or 425% */
+  text-align: right;
+
+  color: #3d2514;
+}
+.navbar-phone {
+  display: flex;
+  flex-direction: row;
+  margin-top: 59px;
+  margin-right: 55px;
+  vertical-align: middle;
+}
+.number {
+  margin-left: 10px;
+  height: 5em;
+  line-height: 2.5em;
+  text-decoration: none;
+  color: #000;
+}
+.logo {
+  margin-left: 60px;
+  margin-top: 54px;
+  height: 60px;
+  width: 265px;
+}
+.main {
+  background: rgb(231, 28, 28);
+}
+
+.offer {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 65px;
+}
+.offer-week {
+  padding-top: 90px;
+}
+.offer-subtitle1 {
+  font-family: "Bebas Neue";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  z-index: 136;
+
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 15px;
+  width: 402px;
+  height: 50px;
+  border: 2px solid black;
+  border-style: dashed;
+  font-size: 23px;
+}
+
+.offer-week-title {
+  font-size: 120px;
+  font-family: "Alfa Slab One";
+  /* font-family: 'Alfa Slab One', sans-serif; */
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  /* line-height: 0.54; */
+  font-weight: 900;
+  text-align: left;
+  text-shadow: 3.936px 4.528px 0px rgba(254, 232, 188, 0.836);
+  position: absolute;
+  z-index: 135;
+}
+.offer-subtitle2 {
+  font-size: 179px;
+  font-family: "Alfa Slab One";
+  color: rgb(61, 37, 20);
+  text-transform: uppercase;
+  line-height: 1.093;
+  text-align: left;
+  text-shadow: 7.936px 14.528px 0px rgba(254, 232, 188, 0.836);
+  -moz-transform: matrix(0.31531915207554, 0, 0, 0.31531915207554, 0, 0);
+  -webkit-transform: matrix(0.31531915207554, 0, 0, 0.31531915207554, 0, 0);
+  -ms-transform: matrix(0.31531915207554, 0, 0, 0.31531915207554, 0, 0);
+  position: absolute;
+  left: -156.087px;
+  top: 404.585px;
+  z-index: 134;
+}
+
+.offer-combo-img {
+  height: 705px;
+  position: relative;
+}
+.Price1 {
+  position: absolute;
+  top: 470px;
+  right: 475px;
+  max-width: 175px;
+  max-height: 175px;
+}
+.combo2 {
+  margin-left: 265px;
+}
+.section-news {
+  margin-left: 7.1%;
+  margin-right: 7.1%;
+  margin-top: 78px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 72px;
+}
+.section-news-twoBanners {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.smallBanner2 {
+  margin-top: 30px;
+}
+.section-news-bigBanner {
+  position: relative;
+}
+.bigBanner-text {
+  height: 72px;
+  width: 323px;
+
+  font-size: 42px;
+  font-family: "Bebas Neue";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  position: absolute;
+  left: 30px;
+  top: 17px;
+  z-index: 110;
+}
+.bigBanner-text1 {
+  font-size: 25px;
+  font-weight: 550;
+}
+.smallBanner1 {
+  position: relative;
+}
+.smallBanner1-text1 {
+  /* background-color: rgb(255, 6, 6); */
+  position: absolute;
+  width: 183px;
+  height: 33px;
+  left: 30px;
+  top: 17px;
+
+  font-family: "BebasNeue";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  line-height: 37px;
+  /* or 90% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.smallBanner1-text2 {
+  /* background-color: rgb(255, 6, 6); */
+  position: absolute;
+  width: 183px;
+  height: 111px;
+  left: 30px;
+  top: 30px;
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 37px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.smallBanner2 {
+  position: relative;
+}
+.smallBanner2-text1 {
+  /* background-color: rgb(255, 6, 6); */
+  position: absolute;
+  width: 183px;
+  height: 33px;
+  left: 30px;
+  top: 17px;
+
+  font-family: "BebasNeue";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  line-height: 37px;
+  /* or 90% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.smallBanner2-text2 {
+  /* background-color: rgb(255, 6, 6); */
+  position: absolute;
+  width: 183px;
+  height: 111px;
+  left: 30px;
+  top: 20px;
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 37px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.events {
+  margin-left: 25px;
+  margin-top: 19px;
+  margin-bottom: 67px;
+  /* width: 100%; */
+  height: 578px;
+}
+.events-section {
+  display: flex;
+  margin-left: 53px;
+  margin-right: 7px;
+  /* width: 1294px; */
+  height: 492px;
+  background: #ffffff;
+  box-shadow: 18.7px 24.8px 43px rgba(0, 0, 0, 0.17);
+
+  /* flex-direction: row; */
+}
+.events-text {
+  margin-top: 63px;
+  margin-left: 53px;
+  margin-bottom: 169px;
+  width: 511px;
+  height: 260px;
+}
+.events-img {
+  width: 659px;
+  height: 440px;
+  margin-left: 45px;
+  margin-top: 44px;
+}
+.events-text-title {
+  /* position: absolute; */
+  width: 128px;
+  height: 46px;
+  margin-bottom: 0;
+  /* left: 0px;
+top: -9.33px; */
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29.1667px;
+  line-height: 46px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+
+  color: #3d3d3d;
+}
+.events-text-subtitle {
+  /* Sub Title */
+
+  /* position: absolute; */
+  width: 498px;
+  height: 46px;
+  /* left: 1px; */
+  /* top: 29.92px; */
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-family: Alfa Slab One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 41.6667px;
+  line-height: 46px;
+  /* identical to box height, or 110% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #3d2514;
+}
+.events-text p {
+  /* position: absolute; */
+  width: 537px;
+  height: 167px;
+  /* left: 4px; */
+  top: 158.75px;
+  margin-top: 35px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.8333px;
+  line-height: 33px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+
+  color: #3d3d3d;
+}
+.bookingForm h2,
+h1 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* margin-left: 100px; */
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 46px;
+  color: #3d2514;
+  text-transform: uppercase;
+  margin: 0;
+}
+.bookingForm h2 {
+  font-size: 29.1667px;
+  letter-spacing: 1.75px;
+  margin-bottom: 23px;
+}
+.bookingForm h1 {
+  font-family: Alfa Slab One;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 85px;
+}
+.booking-input {
+  /* position: absolute; */
+  /* margin-left: 50px; */
+  width: 379px;
+  height: 65px;
+  /* left: 1px; */
+  /* top: 185px; */
+
+  background: rgba(235, 174, 76, 0.0001);
+  border: 1px solid #bebebe;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.booking-input::placeholder {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;
+  color: #3d3d3d;
+}
+.booking-inputColumn {
+  display: flex;
+  flex-direction: column;
+}
+.booking-inputColumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 149px;
+}
+.booking-inputColumn input {
+  margin-right: 27px;
+  margin-bottom: 27px;
+}
+.booking-button {
+  width: 379px;
+  height: 65px;
+
+  font-family: Alfa Slab One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.8333px;
+  line-height: 46px;
+  /* identical to box height, or 220% */
+
+  border-radius: 7px;
+  /* display: flex; */
+
+  /* align-items: center; */
+  text-transform: uppercase;
+  background-color: #bf2222;
+  color: #ffffff;
+}
+.booking-button:hover {
+  background-color: #fff;
+  color: #bf2222;
+  /* border: 2px solid black; */
+}
+.inner-booking-button {
+  display: flex;
+  justify-content: center;
+}
+.booking {
+  height: 620px;
+  position: relative;
+}
+.booking-imgBurger {
+  position: absolute;
+  left: 0px;
+  bottom: 370px;
+}
+.booking-imgBottle {
+  position: absolute;
+  left: 65px;
+  top: 125px;
+}
+.booking-imgDish {
+  position: absolute;
+  /* left: 1125px; */
+  right: 0;
+  top: 157px;
+}
+.footer {
+  /* width: 1326px; */
+  height: 525px;
+  background: url(/img/footerBg.png) no-repeat;
+  background-size: 100%;
+}
+
+.footerLogo {
+  margin-top: 85px;
+  margin-left: 43px;
+}
+.footer-restaurantInfo {
+  width: 542px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 43px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.6667px;
+  line-height: 25px;
+  /* or 150% */
+
+  /* display: flex; */
+  /* align-items: center; */
+
+  color: #ffffff;
+}
+.footer-info {
+  display: flex;
+  flex-direction: row;
+}
+.contacts {
+  margin-left: 338px;
+  margin-top: 70px;
+}
+.footer-infoText {
+  width: 262px;
+  height: 38px;
+  margin-left: 34px;
+  margin-bottom: 8px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20.8333px;
+  line-height: 37px;
+  /* identical to box height, or 180% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.footer-emailLoc {
+  display: flex;
+  flex-direction: row;
+}
+.locationIcon {
+  width: 31px;
+  height: 35px;
+}
+.emailIcon {
+  margin-top: 6px;
+  width: 29px;
+  height: 23px;
+}
+.footer-socialNetworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-right: 23px;
+}
+.copyright {
+  width: 271px;
+  height: 17px;
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.6667px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+  margin-left: 43px;
+}
+.socialIcons {
+  margin-right: 7px;
+}
