@@ -476,7 +476,7 @@ h1 {
 .footer {
   /* width: 1326px; */
   height: 525px;
-  background: url(/img/footerBg.png) no-repeat;
+  background: url(../img/footerBg.png) no-repeat;
   background-size: 100%;
 }
 
